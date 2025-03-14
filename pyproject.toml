@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "transparent-image-trimmer"
+version = "0.1.0"
+description = ""
+authors = ["zizo <zizo.toiawase@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^25.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
